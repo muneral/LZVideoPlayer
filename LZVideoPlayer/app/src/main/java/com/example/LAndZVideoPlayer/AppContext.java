@@ -1,0 +1,24 @@
+package com.example.LAndZVideoPlayer;
+
+import android.content.Context;
+import android.content.ContextWrapper;
+import android.content.pm.PackageManager.NameNotFoundException;
+
+//Liu
+public class AppContext extends ContextWrapper {
+
+    private static AppContext sInstance;
+    public static void init(Context context) {
+        if (sInstance == null) {
+            try {
+                sInstance = new AppContext(context.createPackageContext(context.getPackageName(),
+                        Context.CONTEXT_INCLUDE_CODE));
+            } catch (NameNotFoundException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+    private AppContext(Context context) {
+        super(context);
+    }
+}

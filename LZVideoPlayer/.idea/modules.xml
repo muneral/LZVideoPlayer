@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LZVideoPlayer-LZVideoPlayer.iml" filepath="$PROJECT_DIR$/LZVideoPlayer-LZVideoPlayer.iml" group="LZVideoPlayer" />
+      <module fileurl="file://$PROJECT_DIR$/LZVideoPlayer/LZVideoPlayer-LZVideoPlayer-LZVideoPlayer.iml" filepath="$PROJECT_DIR$/LZVideoPlayer/LZVideoPlayer-LZVideoPlayer-LZVideoPlayer.iml" group="LZVideoPlayer/LZVideoPlayer" />
+      <module fileurl="file://$PROJECT_DIR$/app/LZVideoPlayer-LZVideoPlayer-app.iml" filepath="$PROJECT_DIR$/app/LZVideoPlayer-LZVideoPlayer-app.iml" group="LZVideoPlayer/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/LZVideoPlayer-app.iml" filepath="$PROJECT_DIR$/app/LZVideoPlayer-app.iml" group="ListVideoPlayer/app" />
+      <module fileurl="file://$PROJECT_DIR$/ListVideoPlayer.iml" filepath="$PROJECT_DIR$/ListVideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LZVideoPlayer/listvideoplayer.iml" filepath="$PROJECT_DIR$/LZVideoPlayer/listvideoplayer.iml" />
+    </modules>
+  </component>
+</project>

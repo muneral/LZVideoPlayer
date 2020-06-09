@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tabs">
+        <item>RecyclerView</item>
+        <item>ViewPager</item>
+    </string-array>
+</resources>
