@@ -3,7 +3,6 @@ package com.example.LAndZVideoPlayer.state;
 //状态信息
 //Liu
 public class LZState {
-
     //屏幕状态
     //普通列表滑动模式（宽大于高）
     public static final int SCREEN_STATE_NORMAL = 1;

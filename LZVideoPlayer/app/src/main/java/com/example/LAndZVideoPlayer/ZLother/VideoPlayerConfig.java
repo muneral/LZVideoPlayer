@@ -5,7 +5,6 @@ import com.example.LAndZVideoPlayer.PlayVideo.IVideoPlayerFactory;
 import com.example.LAndZVideoPlayer.PlayVideo.MediaPlayerFactory;
 
 //播放器相关功能开关配置
-
 public final class VideoPlayerConfig {
     private IVideoPlayerFactory mPlayerFactory;
 
@@ -29,7 +28,6 @@ public final class VideoPlayerConfig {
         public Builder() {
         }
 
-        //配置Player工厂，用于创建播放器
         public Builder buildPlayerFactory(IVideoPlayerFactory factory) {
             this.playerFactory = factory;
             return this;
